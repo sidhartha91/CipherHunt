@@ -1,0 +1,41 @@
+.background{
+    -fx-background-color:
+    linear-gradient(to bottom right,#07111f,#122544);
+}
+
+.glass-card{
+    -fx-background-color: rgba(255,255,255,0.08);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: rgba(255,255,255,0.2);
+    -fx-padding: 40;
+    -fx-effect: dropshadow(gaussian,rgba(0,0,0,0.4),20,0,0,10);
+}
+
+.title{
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.button{
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-padding: 12 20 12 20;
+}
+
+.button:hover{
+    -fx-background-color: #2f6bff;
+}
+
+.text-field{
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-prompt-text-fill: #d0d8ff;
+}
